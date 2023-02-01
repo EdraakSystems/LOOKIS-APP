@@ -1,0 +1,52 @@
+{
+  "name": "lookis",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "8": "npx react-native run-ios --simulator='iPhone 8'",
+    "11": "npx react-native run-ios --simulator='iPhone 11'",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "8+": "npx react-native run-ios --simulator='iPhone 8 Plus'",
+    "test": "jest",
+    "lint": "eslint .",
+    "bundle-ios": "npx react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'"
+  },
+  "dependencies": {
+    "@react-native-picker/picker": "^2.2.1",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.0.11",
+    "@terrylinla/react-native-sketch-canvas": "^0.8.0",
+    "link": "^0.1.5",
+    "react": "^17.0.2",
+    "react-native": "^0.66.4",
+    "react-native-color-picker": "^0.6.0",
+    "react-native-double-tap": "^1.0.1",
+    "react-native-draggable": "^3.3.0",
+    "react-native-gesture-handler": "^2.1.0",
+    "react-native-gesture-responder": "^0.1.1",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-mail": "^6.1.1",
+    "react-native-paper": "^4.11.2",
+    "react-native-reanimated": "^2.7.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/runtime": "^7.16.7",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.6.0",
+    "jest": "^27.4.7",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
